@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: large;
+}
+
+h1 {
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.header {
+    padding: 15px;
+}
+
+.nav {
+    width: 100%;
+}
+
+.hero {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-area {
+    background-color: #E4C718;
+}
+
+.nav__inner {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav__link {
+    padding: 0px 60px;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    transition: all 0.3ms ease-in-out;
+    padding: 9px 25px;
+}
+
+.btn--primary {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.btn--primary:hover,
+.btn--primary:focus {
+    color: #000;
+    background-color: #fff;
+}
+ 
+
+
+footer {
+    background-color: white;
+    padding: 5px;
+    color: grey;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 10px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col {
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+
+.absolute-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* my ux skills style */
+
+  /* My UX Skills Section */
+  .heading {
+      text-transform: lowercase;
+      margin-left: 100px;
+      margin-top: 75px;
+      ;
+  }
+  
+  .flexContainer {
+    display: flex;
+    padding: 250px 30px;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+  }
+  
+  /* My Work Section */
+  .myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: #EBEBEB;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    "img3 content3"
+    ;
+  }
+  .workGrid img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img1, .img2, .img3, .content1, .content2, .content3 {
+    padding: 80px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  .content3 {
+    grid-area: content3;
+  }
+  
