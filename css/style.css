@@ -72,6 +72,9 @@ p {
     background-color: #fff;
 }
  
+.nav__link a:hover {
+  color:black;
+}
 
 
 footer {
